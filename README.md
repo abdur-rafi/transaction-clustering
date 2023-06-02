@@ -1,4 +1,6 @@
 # Clustering Transaction Narrations to Extract Types of Transactions
+
+## Running the notebook
 Sections:
 1. Loading The Dataset
 2. Cleaning
@@ -26,3 +28,13 @@ To run the notebook, the train and test dataset path need to be specified in the
 
 
 The DBSCAN algorithm may take a long time to run or sometimes may crash due to running out of memory.
+
+## Running the test script
+command format : 
+``` python test.py "narration 1", "narration 2" ```
+
+The script needs 2 saved models.
+1. **vectors.kv** : A KeyedVector of word embeddings
+2. **clustering_model.joblib** : Saved clustering model
+
+The model paths are declared at the beginning of the test.py script.

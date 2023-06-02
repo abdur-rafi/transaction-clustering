@@ -1,5 +1,5 @@
-vector_path = '/content/vectors.kv'
-clustering_path = '/content/clustering_model.joblib'
+vector_path = './saved/vectors.kv'
+clustering_path = './saved/clustering_model.joblib'
 
 import pandas as pd
 
